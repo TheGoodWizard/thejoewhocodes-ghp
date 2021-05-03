@@ -1,0 +1,549 @@
+@charset "utf-8";
+
+/******* ABOUT PAGE BASE STYLES *******/
+
+
+/****** GRID ******/
+
+.full-width {         
+    margin: 0px auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+.forth-width {
+    float: left;
+    width: 300px;
+}
+
+
+body {
+    background-image: linear-gradient( rgba(235, 235, 235, 0), rgba(235, 235, 235, 1));
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 960px;
+    padding-left: 2.275%;
+    padding-right: 2.275%;
+    width: 92%;
+}
+
+.img-wrap {
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+/****** ABOUT PAGE HEADER STYLES ******/
+ 
+header {
+    display: block;
+    text-align: center;
+}
+
+header .profileLogo .logoPlaceholder {
+    background-color: #fff;
+    text-align: center;
+    width: 187px;
+}
+
+header .logoPlaceholder span {
+    color: rgba(255, 255, 255, 1.00);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    height: 22px;
+    line-height: 53px;
+    width: 80px;
+}
+
+header .profile-photo {
+    background-color: rgba(237, 237, 237, 1.00);
+    border-radius: 50%;
+    clear: both;
+    height: 259px;
+    width: 259px;
+}
+
+header .profile-header h1 {
+    color: #0994db;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+header .profile-header h3 {
+    color: #24b6ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+hr {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 1px;
+}
+
+header .profile-header p {
+    color: #03608f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    overflow-y: auto; 
+}
+
+header .social-network-nav-bar {
+    clear: both;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+header .social-network-nav-bar .social-network-nav img:hover { opacity: .5; }
+
+
+/****** NAVIGATION SECTION CSS ******/
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li { display: inline-block; }
+
+nav ul li a {
+    color: #ebebeb;
+    font-size: 20px;
+    padding-left: 50px;
+    stroke: 3px #000000;
+    text-decoration: none;
+    text-shadow: .6px .6px 1px #03608f;
+    text-transform: uppercase;
+}
+
+
+/****** MAIN CONTENT SECTION STYLES ******/
+
+.main-content .section1 { display: block; }
+
+.section1 .section-title,
+.section2 .section-title {
+    color: #0994db;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section1 .section-title-rule,
+.section2 .section-title-rule {
+    clear: both;
+    float: left;
+    margin: 0% 3% 0% 0%;
+}
+
+.section1 .section-title-rule-2,
+.section2 .section-title-rule-2 {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 1px;
+    padding: 0px;
+}
+
+.main-content .section1 .section1-content {
+    color: #03608f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.main-content .section1 .section1-content span {
+    color: #8f4f00;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.section2 .section-content-title {
+    color: #24b6ff;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+.section2 .section-content-sub-title {
+    color: #db7d09;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section2 .section-content {
+    color: #03608f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.main-content { display: block; }
+
+.stretch {
+    content: '';
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%; 
+}
+
+
+/****** CONTACT SECTION CSS ******/
+
+#contact { background-color: #f0f0f0; }
+
+#contact .full-width { padding: 110px 0px; }
+
+#contact img#contact-img {
+    border: 12px solid #fff;
+    margin-left: 25px;
+}
+
+#contact h2,
+#contact #email-header,
+#contact #socialmedia-header,
+#contact ul { padding-left: 115px; }
+
+#contact #envelope { padding: 0px 10px 0px 115px; }
+
+#contact h2 {
+    color: #14668f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact h3 {
+    color: #0994db;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 30px 0px 5px 0px;
+}
+
+#contact #socialmedia-header {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 40px 0px 0px 0px;
+}
+
+#contact a {
+    color: #8f4f00;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact ul { list-style: none; }
+
+#contact ul li { display: inline-block; }
+
+#contact ul img { padding-right: 48px; }
+
+
+/******  FOOTER STYLES ******/
+
+footer .footerDisclaimer {
+    color: #03608f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+footer .footerDisclaimer span {
+    color: #8f4f00;
+    font-weight: 400;
+}
+
+footer .footerNote {
+    color: #03608f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+footer .footerNote span {
+    color: #8f4f00;
+    font-weight: 400;
+}
+
+/****** MEDIA QUERY FOR MOBILE DEVICES ******/ 
+
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+
+    /****** MOBILE DEVICE HEADER STYLES ******/
+
+header {
+    float: none;
+    width: 100%;
+}
+
+header .profileLogo .LogoPlaceholder { display: inline-block; }
+
+header .profile-photo { display: inline-block; }
+
+header .profile-header {
+    margin-top: 10%;
+    text-align: center;
+}
+
+header .profile-header p { text-align: justify; }
+
+header .social-network-nav-bar {
+    clear: both;
+    display: block;
+    margin-bottom: 15%;
+    margin-top: 60px;
+    text-align: center;
+}
+
+header .social-network-nav-bar .social-network-nav {
+    display: inline-block;
+    height: 60px;
+    margin-right: 23px;
+    width: 60px;
+}
+
+/****** MOBILE DEVICE MAIN CONTENT SECTION STYLES ******/
+
+.main-contnet .section1 { 
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.section1 .section1-title,
+.section2 .section1-title { text-align: center; }
+
+.section1 .section-title-rule,
+.section2 .section-title-rule { width: 100%; }
+
+.section1 .section-title-rule-2,
+.section2 .section-title-rule-2 { display: none; }
+
+.main-content .section1 .section1-content {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    text-align: left; 
+}
+
+.main-content .section2 {
+    display: block;
+    text-align: center;
+}
+
+.section2 .section2-content {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-align: justify; 
+}
+
+
+/****** MOBILE DEVICE FOOTER STYLES ******/
+
+footer {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+}
+
+
+/****** MEDIA QUERY FOR TABLETS ******/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+/****** HEADER QUERY STYLES FOR TABLETS ******/
+
+header {
+    float: none;
+    width: 100%;
+}
+
+header .profileLogo .logoPlaceholder {
+    display: inline-block;
+    font-family: 'Syncopate', sans-serif;
+}
+
+header .profile-photo {
+    clear: both;
+    float: left;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+header .profile-header {
+    margin-top: 7%;
+    text-align: left;
+}
+
+header .social-network-nav-bar .social-network-nav {
+    display: inline-block;
+    height: 74px;
+    margin-right: 23px;
+    width: 74px;
+}
+
+/****** MAIN CONTENT AND SECTION STYLES FOR TABLETS ******/
+
+.section1 .section1-title,
+.section2 .section1-title { text-align: center; }
+
+.section1 .section-title-rule,
+.section2 .section-title-rule { width: 100%; }
+
+.section1 .section-title-rule-2,
+.section2 .section-title-rule-2 { display: none; }
+
+.main-content .section1 .section1-content {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
+    margin: 0% 0% 0% 20%;
+    margin-top: 5%;
+}
+
+.main-content .section2 { clear: both; }
+
+.section2 .section2-content {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 0%;
+}
+
+
+/****** FOOTER QUERY STYLES FOR TABLETS ******/
+
+footer .footerDisclaimer {
+    float: left;
+    font-family: sans-serif;
+    margin-left: 3%;
+}
+
+footer .footerNote {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+}
+
+
+}
+
+
+/******  DESKTOP AND LAPTOP MEDIA QUERY STYLES ******/
+
+@media only screen and (min-width: 1025px) {
+
+/****** DESKTOP AND LAPTOP MEDIA QUERY HEADER STYLES ******/
+
+header .profileLogo .logoPlaceholder {
+    float: left;
+    margin-bottom: 50px;
+}
+
+header .profile-photo {
+    clear: both;
+    float: left;
+    margin-right: 3%;
+}
+
+header .profile-header {
+    padding-top: 10%;
+    text-align: left;
+}
+
+header .social-network-nav-bar .social-network-nav {
+    display: inline-block;
+    height: 74px;
+    margin-right: 23;
+    width: 74px;
+}
+
+/****** DESKTOP AND LAPTOP MAIN CONTENT SECTION, MEDIA QUERY STYLES ******/
+
+.section1 .section-title-rule,
+.section2 .section-title-rule { width: 22.5%; }
+
+.main-content .section1 .section1-content {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0%;
+    margin-left: 26%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.main-content .section2 { clear: both; }
+
+.section2 .section2-content {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 26%;
+    padding: 0%;
+}
+
+
+/****** DESKTOP AND LAPTOP FOOTER, MEDIA QUERY STYLES ******/
+
+footer .footerDisclaimer {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3%;
+}
+
+footer .footerNote {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+}
+
+
+}
+
+/****** FONTS ******/
+
+@font-face {
+    font-family: 'Syncopate', sans-serif;
+    src: url(../fonts/Syncopate-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Syncopate', sans-serif;
+    src: url(../fonts/Syncopate-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
+}
+
